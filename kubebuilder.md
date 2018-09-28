@@ -58,4 +58,6 @@ make: *** [test] Error 1
 ### Add Node Controller
 
 ```console
+$ kubebuilder create api --resource=false --controller --group core --version v1 --kind Node
+...
 ```
